@@ -11,10 +11,16 @@
   </head>
 
   <body>
-    <div id="center"><p id="example">تم نشر Arabic Timeago <time class="timeago" datetime="2015-04-11T13:00:00Z"></time></p></div>
+    <div id="center">
+      <p id="example1">تم فتح هذه الصفحة <time id="loaded" class="timeago" datetime=""></time></p>
+      <p id="example2">تم نشر Arabic Timeago <time id="loaded" class="timeago" datetime="2015-04-11T13:00:00Z"></time></p>
+
+      <p>حقوق النشر © 2015 <a href="http://fb.com/Ali.L.Malak" target="_blank">AliOsm</a><br><a href="https://github.com/AliOsm/arabic-timeago">GitHub</a></p>
+    </div>
+    
     <script>
       $('.timeago').timeago();
+      document.getElementById("loaded").setAttribute("datetime", Date());
     </script>
-    <div id="footer">حقوق النشر © 2015 <a href="http://fb.com/Ali.L.Malak" target="_blank">AliOsm</a><br><a href="https://github.com/AliOsm/arabic-timeago">GitHub</a></div>
   </body>
 </html>
