@@ -18,24 +18,17 @@ a {
 
 #center {
   width: 90%;
-  height: 300px;
+  height: 180px;
   position: absolute;
   top:0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
-  border: 1px dashed #999;
 }
 
 #example1 {
-  font-size: 75px;
-  padding: 0px;
-  margin: 0px;
-}
-
-#example2 {
-  font-size: 25px;
+  font-size: 50px;
   padding: 0px;
   margin: 0px;
 }
