@@ -1,2 +1,2 @@
 # arabic-timeago-example
-arabic-timeago مثال لكيفية إستخدام إضافة
+An example of how to use arabic-timeago
